@@ -1,13 +1,21 @@
+@import './initial';
+@import './variables';
+@import './templates';
+@import './header';
+@import './map';
+
 body{
   margin: 0;
   padding: 0;
 }
 
-.hi{
-  width: 20%;
-}
-
 .app{
   display: flex;
-
+  flex-direction: column;
+  .main{
+    display: flex;
+    .hi{
+      width: 25%;
+    }
+  }
 }

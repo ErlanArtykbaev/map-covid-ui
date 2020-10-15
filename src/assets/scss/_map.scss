@@ -1,0 +1,26 @@
+.map{
+  border-radius: 5px;
+  .marker{
+  }
+}
+
+.location{
+  width: 26px;
+}
+
+.popup{
+  width: max-content;
+}
+
+.popup-row{
+  display: flex;
+  .left{
+    width: 50%;
+    .popup-row-icon{
+      width: 10px;
+    }
+  }
+  .right{
+    width: 50%;
+  }
+}

@@ -1,0 +1,19 @@
+header{
+  height: 6%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  .logo-box{
+    width: 10%;
+    @include centerFlex;
+    .logo{
+      width: 40px;
+    }
+  }
+  .karta{
+    padding: 8px 10px;
+    border: 0.7px solid black;
+    @include centerFlex;
+  }
+}
