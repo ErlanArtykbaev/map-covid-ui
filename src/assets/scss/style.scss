@@ -3,19 +3,12 @@
 @import './templates';
 @import './header';
 @import './map';
-
-body{
-  margin: 0;
-  padding: 0;
-}
+@import './sidebar';
 
 .app{
   display: flex;
   flex-direction: column;
   .main{
     display: flex;
-    .hi{
-      width: 25%;
-    }
   }
 }

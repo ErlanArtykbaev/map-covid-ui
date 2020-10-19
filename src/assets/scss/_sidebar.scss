@@ -1,0 +1,42 @@
+.sidebar{
+  width: 25%;
+  margin: 10px;
+  padding: 12px;
+  box-sizing: border-box;
+  background-color: #F8F8F8;
+  border: 1px solid grey;
+  .icons-description{
+    margin-top: 15px;
+    .description-row{
+      display: flex;
+      align-items: center;
+      .description-icon{
+        margin-right: 5px;
+      }
+    }
+  }
+  .form{
+    margin-top: 15px;
+    display: flex;
+    flex-direction: column;
+    font-weight: bold;
+  }
+  .stations-box{
+    margin-top: 15px;
+    .search-organisation{
+      width: 90%;
+      margin-bottom: 10px;
+    }
+    .stations{
+      overflow-y: scroll;
+      .stations-item{
+        display: flex;
+        align-items: center;
+        margin-top: 10px;
+        .item-icon{
+          margin-right: 10px;
+        }
+      }
+    }
+  }
+}

@@ -4,6 +4,7 @@ header{
   justify-content: space-between;
   align-items: center;
   padding: 10px;
+  background-color: #F8F8F8;
   .logo-box{
     width: 10%;
     @include centerFlex;
@@ -12,8 +13,10 @@ header{
     }
   }
   .karta{
+    text-decoration: none;
+    background-color: #dfdfdf;
     padding: 8px 10px;
-    border: 0.7px solid black;
+    border-radius: 6px;
     @include centerFlex;
   }
 }
